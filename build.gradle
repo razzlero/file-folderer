@@ -51,6 +51,10 @@ jar {
     }
 }
 
+test {
+    useJUnitPlatform()
+}
+
 wrapper {
     gradleVersion = '4.8.1'
 }
