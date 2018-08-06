@@ -1,7 +1,7 @@
 # File Folderer
 File Folderer is a tool for grouping files and placing them into folders based on a provided regular expression.
 
-![Travis-ci](https://api.travis-ci.org/razzlero/file-folderer.svg?branch=master)
+![Travis-ci](https://travis-ci.org/razzlero/file-folderer.svg?branch=master)
 
 ### Technology
 
