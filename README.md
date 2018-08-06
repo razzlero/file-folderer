@@ -9,6 +9,9 @@ File Folderer is a relatively simple file and was made using Kotlin + Tornadofx.
 
 For testing JUnit + JIMFS is used which allows testing with virtual files and directories.
 
+
+TornadoFX currently does not support Java 9 or 10. Because of that this tool requires Java 8 to run.
+
 ## Usage
 
   * First select the directory which contains the files that you want to group.
@@ -51,6 +54,7 @@ Picture 1.jpg
 You'll notice that 'Picture 1.jpg' was not affected because it did not match the regex which specified '.txt' files.
 
 The account files were places in an "Account" directory because the regular expression capturing group matched "Account" in the file names. Similarly the notes files were placed in a "Notes" directory because that's the text that match the capturing group for those files.
+
 
 License
 ----
