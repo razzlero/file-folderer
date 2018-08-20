@@ -5,12 +5,11 @@ File Folderer is a tool for grouping files and placing them into folders based o
 
 ### Technology
 
-File Folderer is a relatively simple file and was made using Kotlin + Tornadofx.
+File Folderer was made using Kotlin + Tornadofx.
 
 For testing JUnit + JIMFS is used which allows testing with virtual files and directories.
 
-
-TornadoFX currently does not support Java 9 or 10. Because of that this tool requires Java 8 to run.
+Because the tool uses TornadoFX for GUI it will currently only work with Java 8.
 
 ## Usage
 
